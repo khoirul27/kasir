@@ -1,7 +1,7 @@
 <?php
 $totalHarga = 0;
 ?>
-<div class="container-xxl flex-grow-1 container-p-y row">
+<div class="row">
     <div id='myAlert'>
         <?= $this->session->flashdata('alert', true) ?>
     </div>

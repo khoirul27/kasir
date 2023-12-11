@@ -1,11 +1,11 @@
 <?php
 $totalHarga = 0;
 ?>
-<div class="container-xxl flex-grow-1 container-p-y row">
+<div class="row">
     <div id='myAlert'>
         <?= $this->session->flashdata('alert', true) ?>
     </div>
-    <div class=" col-6">
+    <div class="col-md-6">
         <!-- Basic Bootstrap Table -->
         <div class="card">
             <h5 class="card-header">Daftar Barang</h5>
@@ -38,7 +38,7 @@ $totalHarga = 0;
         </div>
     </div>
     
-    <div class="col-6">
+    <div class="col-md-6">
         <div class="card mb-4">
             <div class="card-body">
                 <h5>Penjualan Barang</h5>
@@ -83,4 +83,3 @@ $totalHarga = 0;
         </div>
     </div>
 </div>
-

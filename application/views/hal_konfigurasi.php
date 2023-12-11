@@ -1,4 +1,4 @@
-<div class="card mb-4 m-5">
+<div class="card">
     <h5 class="card-header">Konfigurasi</h5>
     <form action="<?= base_url('konfigurasi/edit') ?>" method="post">
         <div class="card-body row">

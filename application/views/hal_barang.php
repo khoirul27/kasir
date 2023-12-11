@@ -1,4 +1,3 @@
-<div class="container-xxl flex-grow-1 container-p-y">
     <div id='myAlert'>
         <?= $this->session->flashdata('alert', true) ?>
     </div>
@@ -82,4 +81,3 @@
             </div>
         </div>
     </div>
-</div>
